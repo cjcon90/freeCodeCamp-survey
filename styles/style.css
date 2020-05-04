@@ -1,0 +1,124 @@
+
+/*Base Formatting*/
+
+body { 
+    height: 100%;
+    margin:0px;
+    background: url(../images/stage-view.JPG) no-repeat center center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title {
+    color: #f7dda9;
+    text-align: center;
+    font-family: 'Megrim', cursive;
+
+}
+
+#description {
+    color: rgb(217, 218, 252);
+    text-align: center;
+    font-family: 'Poiret One', cursive;
+}
+
+#survey-form {
+    background-color: rgba(0, 0, 0, 0.7);
+    display: block;
+    margin: 1rem auto;
+    width: 100%;
+    max-width: 400px;
+    border: solid 2px rgb(175, 134, 57);
+    border-radius: 5px;
+    line-height: 1.6rem;
+
+}
+
+label {
+    color: #f7dda9;
+}
+
+.text-input {
+    box-sizing:border-box;
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+    height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: rgb(71, 67, 67);
+}
+
+select {
+    box-sizing:border-box;
+    margin: 20px 0 20px 0;
+    border-radius: 2px;
+    height: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: rgb(71, 67, 67);
+}
+
+option {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: rgb(71, 67, 67);
+}
+
+textarea {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 0.9rem;
+    color: rgb(71, 67, 67);
+}
+
+p {
+    color: #f7dda9;
+    margin: 1.5rem 0 0.4rem 0;
+}
+
+
+#title {
+    font-size: 3rem;
+    margin: 20px 0 -20px 0;
+}
+
+#description {
+    font-size: 1.5rem;
+}
+
+@media (min-width: 1024px) {
+
+    #title {
+        font-size: 4rem;
+        margin: 20px;
+    }
+    
+    #description {
+        font-size: 2.4rem;
+        margin: 20px 0 40px 0;
+    }
+
+}
+
+#survey-form {
+    width: 85%;
+    padding: 15px;
+}
+
+.text-input {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+select {
+    width: 100%;
+    display: block;
+    margin: auto;
+}
+
+textarea {
+    width: 100%;
+    display: block;
+    margin: auto;
+    height: 3rem;
+}

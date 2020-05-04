@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="uft-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Rhythm & Code Music Academy</Title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Merriweather:wght@300&family=Poiret+One&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+  
+</head>
+<body id="survey-body">
+    <h1 id="title">Rhythm & Code Music Academy</h1>
+    <p id="description">Studio to Stage: Hear Your Dreams Come to Life</p>
+
+    <form action="" id="survey-form">
+        <label for="name">Name</label><br>
+        <input type="text" id="name" class="text-input" placeholder="Enter Your Name" required><br>
+        <label for="email">Email</label><br>
+        <input type="text" id="email" class="text-input" placeholder="Enter your Email" required><br>
+        <label for="number">Age</label><br>
+        <input type="text" id="number" class="text-input" placeholder="Age" required><br>
+        <label for="dropdown">What class would you like to take?</label>
+        <select name="class-choice" id="dropdown" form="survey-form" required>
+            <option value="" selected disabled>Select a Class</option>
+            <option value="music-theory">Music Theory</option>
+            <option value="vocals">Vocals</option>
+            <option value="guitar">Guitar</option>
+            <option value="drums">Drums</option>
+            <option value="bass">Bass</option>
+            <option value="piano">Piano</option>
+        </select>
+
+        <p>What is your experience level?</p>
+
+        <input type="radio" id="beginner" name="experience" value="Beginner">
+        <label for="beginner">Beginner</label><br>
+        <input type="radio" id="intermediate" name="experience" value="Intermediate">
+        <label for="intermediate">Intermediate</label><br>
+        <input type="radio" id="advanced" name="experience" value="Advanced">
+        <label for="advanced">Advanced</label><br style="margin-bottom: 1rem;">
+
+        <label for="lessons">What is your preferred class type?</label>
+        <select name="lessons" id="lessons" form="survey-form" required>
+            <option value="" selected disabled>Choose a class type</option>
+            <option value="online">Online Lessons</option>
+            <option value="private">Private Lessons</option>
+            <option value="group">Group Lessons (Up to 4 Participants)</option>
+            <option value="workshop">Workshops (Large Groups)</option>
+        </select>
+        <p>What days can you attend?</p>
+        <input type="checkbox" id="mon" name="mon" value="Monday">
+        <label for="mon">Monday</label><br>
+        <input type="checkbox" id="tue" name="tue" value="Tuesday">
+        <label for="tue">Tuesday</label><br>
+        <input type="checkbox" id="wed" name="wed" value="Wednesday">
+        <label for="wed">Wednesday</label><br>
+        <input type="checkbox" id="thu" name="thu" value="Thursday">
+        <label for="thu">Thursday</label><br>
+        <input type="checkbox" id="fri" name="fri" value="Friday">
+        <label for="fri">Friday</label><br>
+        <input type="checkbox" id="sat" name="sat" value="Saturday">
+        <label for="sat">Saturday</label><br style="margin-bottom: 1rem;">
+
+        <label for="other">Anything else you'd like us to know?</label>
+        <textarea id="other" placeholder="Enter your additional info here..."></textarea> 
+
+
+
+
+    </form>
+</body>
