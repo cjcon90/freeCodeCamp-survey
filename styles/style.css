@@ -1,10 +1,7 @@
-
-/*Base Formatting*/
-
 body { 
     height: 100%;
     margin:0px;
-    background: url(../images/stage-view.JPG) no-repeat center center;
+    background: url(https://res.cloudinary.com/scrumpylungs/image/upload/v1588618270/freeCodeCamp%20Survey%20Form/stage-view_bfh01n.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
 }
@@ -85,6 +82,8 @@ p {
     font-size: 1.5rem;
 }
 
+/*Desktop Sizing*/
+
 @media (min-width: 1024px) {
 
     #title {
@@ -93,8 +92,12 @@ p {
     }
     
     #description {
-        font-size: 2.4rem;
+        font-size: 2rem;
         margin: 20px 0 40px 0;
+    }
+
+    html {
+        font-size: 1.05vw;
     }
 
 }
