@@ -4,7 +4,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Title>Rhythm & Code Music Academy</Title>
     <link rel="stylesheet" type="text/css" href="styles/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Megrim&family=Merriweather:wght@300&family=Poiret+One&family=Ubuntu+Mono&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Megrim&family=Poiret+One&display=swap" rel="stylesheet">
   
 </head>
 <body id="survey-body">
@@ -12,13 +12,13 @@
     <p id="description">Studio to Stage: Hear Your Dreams Come to Life</p>
 
     <form action="" id="survey-form">
-        <label for="name">Name</label><br>
-        <input type="text" id="name" class="text-input" placeholder="Enter Your Name" required><br>
-        <label for="email">Email</label><br>
-        <input type="text" id="email" class="text-input" placeholder="Enter your Email" required><br>
-        <label for="number">Age</label><br>
-        <input type="text" id="number" class="text-input" placeholder="Age" required><br>
-        <label for="dropdown">What class would you like to take?</label>
+        <label for="name" id="name-label">Name</label><br>
+        <input type="text" id="name" class="text-input" placeholder=" Enter Your Name" tabindex="0" required><br>
+        <label for="email" id="email-label">Email</label><br>
+        <input type="email" id="email" class="text-input" placeholder=" Enter your Email" required><br>
+        <label for="number" id="number-label">Age</label><br>
+        <input type="number" id="number" class="text-input" placeholder=" Age" min="1" max="99"  required><br>
+        <label for="dropdown" id="dropdown-label">What class would you like to take?</label>
         <select name="class-choice" id="dropdown" form="survey-form" required>
             <option value="" selected disabled>Select a Class</option>
             <option value="music-theory">Music Theory</option>
@@ -31,14 +31,14 @@
 
         <p>What is your experience level?</p>
 
-        <input type="radio" id="beginner" name="experience" value="Beginner">
+        <input type="radio" id="beginner" class="radio" name="experience" value="Beginner">
         <label for="beginner">Beginner</label><br>
-        <input type="radio" id="intermediate" name="experience" value="Intermediate">
+        <input type="radio" id="intermediate" class="radio" name="experience" value="Intermediate">
         <label for="intermediate">Intermediate</label><br>
-        <input type="radio" id="advanced" name="experience" value="Advanced">
+        <input type="radio" id="advanced" class="radio" name="experience" value="Advanced">
         <label for="advanced">Advanced</label><br style="margin-bottom: 1rem;">
 
-        <label for="lessons">What is your preferred class type?</label>
+        <label for="lessons" id="lessons-label">What is your preferred class type?</label>
         <select name="lessons" id="lessons" form="survey-form" required>
             <option value="" selected disabled>Choose a class type</option>
             <option value="online">Online Lessons</option>
@@ -62,6 +62,8 @@
 
         <label for="other">Anything else you'd like us to know?</label>
         <textarea id="other" placeholder="Enter your additional info here..."></textarea> 
+
+        <input type="submit" id="submit" value="Sign Up For Classes">
 
 
 
