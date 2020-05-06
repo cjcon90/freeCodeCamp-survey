@@ -17,12 +17,15 @@
         <p id="description">Studio to Stage: Hear Your Dreams Come to Life</p>
 
         <form action="" id="survey-form">
+            <div class="basic-div">
             <label for="name" id="name-label">Name</label><br>
             <input type="text" id="name" class="text-input" placeholder=" Enter Your Name" tabindex="0" required><br>
             <label for="email" id="email-label">Email</label><br>
             <input type="email" id="email" class="text-input" placeholder=" Enter your Email" required><br>
             <label for="number" id="number-label">Age</label><br>
             <input type="number" id="number" class="text-input" placeholder=" Age" min="1" max="99" required><br>
+        </div>
+        <div class="select-div">
             <label for="dropdown" id="dropdown-label">What class would you like to take?</label>
             <select name="class-choice" id="dropdown" form="survey-form" required>
                 <option value="" selected disabled>Select a Class</option>
@@ -33,7 +36,8 @@
                 <option value="bass">Bass</option>
                 <option value="piano">Piano</option>
             </select>
-
+        </div>
+        <div class="radio-div">
             <p>What is your experience level?</p>
             <input type="radio" id="beginner" class="radio" name="experience" value="Beginner">
             <label for="beginner">Beginner</label><br>
@@ -41,7 +45,8 @@
             <label for="intermediate">Intermediate</label><br>
             <input type="radio" id="advanced" class="radio" name="experience" value="Advanced">
             <label for="advanced">Advanced</label><br style="margin-bottom: 1rem;">
-
+        </div>
+        <div class="select-div">
             <label for="lessons" id="lessons-label">What is your preferred class type?</label>
             <select name="lessons" id="lessons" form="survey-form" required>
                 <option value="" selected disabled>Choose a class type</option>
@@ -50,7 +55,8 @@
                 <option value="group">Group Lessons (Up to 4 Participants)</option>
                 <option value="workshop">Workshops (Large Groups)</option>
             </select>
-
+        </div>
+        <div class=check-div>
             <p>What days can you attend?</p>
             <input type="checkbox" id="mon" name="mon" value="Monday">
             <label for="mon">Monday</label><br>
@@ -64,11 +70,13 @@
             <label for="fri">Friday</label><br>
             <input type="checkbox" id="sat" name="sat" value="Saturday">
             <label for="sat">Saturday</label><br style="margin-bottom: 1rem;">
-
+        </div>
+        <div class="end-div">
             <label for="other" id="submit-label">Anything else you'd like us to know?</label>
             <textarea id="other" placeholder="Enter your additional info here..."></textarea>
 
             <input type="submit" id="submit" value="Sign Up For Classes">
+        </div>
 
 
 
