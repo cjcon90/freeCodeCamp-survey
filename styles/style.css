@@ -11,7 +11,7 @@ body {
     text-align: center;
     font-family: 'Megrim', cursive;
     font-size: 3rem;
-    margin: 20px 0 0 0;
+    margin: 20px 0 10px 0;
 }
 
 #description {
@@ -19,7 +19,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
-    padding: 20px;
+    margin: 15px;
 }
 
 #survey-form {
@@ -40,11 +40,13 @@ label {
     font-size: 1.3rem;
 }
 
+
 .text-input {
     box-sizing:border-box;
     width: 100%;
     display: block;
     margin: auto;
+    margin-top: 10px;
     border-radius: 5px;
     height: 2em;
     font-family: 'Barlow Condensed', sans-serif;
@@ -54,14 +56,13 @@ label {
 
 select {
     box-sizing:border-box;
-    margin: 20px 0 25px 0;
+    margin: 15px 0 20px 0;
     border-radius: 5px;
     height: 2em;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1rem;
     color: rgb(71, 67, 67);
     width: 100%;
-
 }
 
 option {
@@ -79,6 +80,7 @@ textarea {
     font-size: 1.1rem;
     color: rgb(71, 67, 67);
     margin-top: 10px;
+    border-radius: 5px;
 }
 
 #submit {
@@ -98,17 +100,17 @@ textarea {
 
 }
 
+#submit:hover {
+
+    background-image: linear-gradient(145deg, rgb(241, 179, 64), #f7cf80);
+}
+
 p {
     color: #f7dda9;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.3rem;
-    margin: 1rem 0 0.5rem 0;
+    margin: 10px 0 10px 0;
 }
-
-br {
-    padding: 2px 0 2px 0;
-}
-
 /*Desktop Font Sizing*/
 
 @media (min-width: 1024px) {
