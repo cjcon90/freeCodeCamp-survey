@@ -19,6 +19,7 @@ body {
     text-align: center;
     font-family: 'Poiret One', cursive;
     font-size: 1.5rem;
+    padding: 20px;
 }
 
 #survey-form {
@@ -53,7 +54,7 @@ label {
 
 select {
     box-sizing:border-box;
-    margin: 20px 0 20px 0;
+    margin: 20px 0 25px 0;
     border-radius: 5px;
     height: 2em;
     font-family: 'Barlow Condensed', sans-serif;
@@ -101,9 +102,12 @@ p {
     color: #f7dda9;
     font-family: 'Barlow Condensed', sans-serif;
     font-size: 1.3rem;
-    margin: 0 0 0.5rem 0;
+    margin: 1rem 0 0.5rem 0;
 }
 
+br {
+    padding: 2px 0 2px 0;
+}
 
 /*Desktop Font Sizing*/
 
@@ -123,7 +127,6 @@ p {
         margin: 20px 0 40px 0;
     }
 
-    
 
     #survey-form {
         padding: 25px;
