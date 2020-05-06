@@ -1,6 +1,6 @@
-body { 
+body {
     height: 100%;
-    margin:5px;
+    margin: 5px;
     background: url(https://res.cloudinary.com/scrumpylungs/image/upload/v1588618270/freeCodeCamp%20Survey%20Form/stage-view_bfh01n.jpg) no-repeat center center;
     background-size: cover;
     background-attachment: fixed;
@@ -42,7 +42,7 @@ label {
 
 
 .text-input {
-    box-sizing:border-box;
+    box-sizing: border-box;
     width: 100%;
     display: block;
     margin: auto;
@@ -55,7 +55,7 @@ label {
 }
 
 select {
-    box-sizing:border-box;
+    box-sizing: border-box;
     margin: 15px 0 20px 0;
     border-radius: 5px;
     height: 2em;
@@ -128,7 +128,7 @@ p {
         font-size: 4rem;
         margin: 20px;
     }
-    
+
     #description {
         font-size: 2rem;
         margin: 20px 0 40px 0;
@@ -146,9 +146,7 @@ p {
 }
 
 /* Tablet Sizing */
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) {
+@media only screen and (min-width : 768px) and (max-width : 1024px) {
 
     html {
         font-size: 1.15rem;
