@@ -8,6 +8,124 @@
     <link rel="stylesheet" type="text/css" href="styles/style.css">
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Megrim&family=Poiret+One&display=swap"
         rel="stylesheet">
+</head>
+
+<body>
+    <Header class="header-box">
+        <h1 id="title">Rhythm & Code Music Academy</h1>
+        <p id="description">Studio to Stage: Hear Your Dreams Come to Life</p>
+    </Header>
+    <main>
+        <form action="" id="survey-form">
+            <div class="form-box">
+                <label for="name" id="name-label">Name</label>
+                <input type="text" id="name" class="text-input" placeholder=" Enter Your Name" required>
+            </div>
+            <div class="form-box">
+                <label for="email" id="email-label">Email</label>
+                <input type="email" id="email" class="text-input" placeholder=" Enter your Email" required>
+            </div>
+            <div class="form-box">
+                <label for="number" id="number-label">Age</label>
+                <input type="number" id="number" class="text-input" placeholder=" Age" min="1" max="99" required><br>
+            </div>
+            <div class="form-box">
+                <label for="dropdown" id="dropdown-label">What class would you like to take?</label>
+                <select name="class-choice" id="dropdown" form="survey-form" required>
+                    <option value="" selected disabled>Select a Class</option>
+                    <option value="music-theory">Music Theory</option>
+                    <option value="vocals">Vocals</option>
+                    <option value="guitar">Guitar</option>
+                    <option value="drums">Drums</option>
+                    <option value="bass">Bass</option>
+                    <option value="piano">Piano</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <fieldset>
+                    <legend>What is your experience level?</legend>
+                    <input type="radio" id="beginner" class="radio" name="experience" value="Beginner">
+                    <label for="beginner">Beginner</label><br>
+                    <input type="radio" id="intermediate" class="radio" name="experience" value="Intermediate">
+                    <label for="intermediate">Intermediate</label><br>
+                    <input type="radio" id="advanced" class="radio" name="experience" value="Advanced">
+                    <label for="advanced">Advanced</label>
+                </fieldset>
+            </div>
+            <div class="form-box">
+                <label for="lessons" id="lessons-label">What is your preferred class type?</label>
+                <select name="lessons" id="lessons" form="survey-form" required>
+                    <option value="" selected disabled>Choose a class type</option>
+                    <option value="online">Online Lessons</option>
+                    <option value="private">Private Lessons</option>
+                    <option value="group">Group Lessons (Up to 4 Participants)</option>
+                    <option value="workshop">Workshops (Large Groups)</option>
+                </select>
+            </div>
+            <div class="form-box">
+                <fieldset>
+                    <legend>What days can you attend?</legend>
+                    <input type="checkbox" id="mon" class="check" name="mon" value="Monday">
+                    <label for="mon">Monday</label><br>
+                    <input type="checkbox" id="tue" class="check" name="tue" value="Tuesday">
+                    <label for="tue">Tuesday</label><br>
+                    <input type="checkbox" id="wed" class="check" name="wed" value="Wednesday">
+                    <label for="wed">Wednesday</label><br>
+                    <input type="checkbox" id="thu" class="check" name="thu" value="Thursday">
+                    <label for="thu">Thursday</label><br>
+                    <input type="checkbox" id="fri" class="check" name="fri" value="Friday">
+                    <label for="fri">Friday</label><br>
+                    <input type="checkbox" id="sat" class="check" name="sat" value="Saturday">
+                    <label for="sat">Saturday</label>
+                </fieldset>
+            </div>
+            <div class="form-box">
+                <label for="other" id="textarea-label">Anything else you'd like us to know?</label>
+                <textarea id="other" placeholder="Enter your additional info here..." rows="3"></textarea>
+            </div>
+            <div class="submit-box">
+                <input type="submit" id="submit" value="Sign Up For Classes">
+            </div>
+
+        </form>
+    </main>
+
+</body>
+
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Title>Rhythm & Code Music Academy</Title>
+    <link rel="stylesheet" type="text/css" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed&family=Megrim&family=Poiret+One&display=swap"
+        rel="stylesheet">
 
 </head>
 
@@ -85,4 +203,4 @@
     </main>
 </body>
 
-</html>
+</html> -->
